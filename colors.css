@@ -1,0 +1,311 @@
+.type-space {
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  text-indent: 20px;
+}
+
+.type-space-images {
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: soft-light;
+}
+
+.type-space-images-modal {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-blend-mode: soft-light;
+}
+
+.normal {
+  background-color: beige;
+  color: black;
+  background-image: url('img/type_normal.png');
+}
+
+.fire {
+  background-color: orange;
+  color: white;
+  background-image: url('img/type_fire.png');
+}
+
+.grass {
+  background-color: green;
+  color: white;
+  background-image: url("img/type_grass.png");
+}
+
+.water {
+  background-color: rgb(0, 37, 204);
+  color: white;
+  background-image: url('img/type_water.png');
+}
+
+.ice {
+  background-color: lightblue;
+  color: black;
+  background-image: url('img/type_ice.png');
+}
+
+.electric {
+  background-color: gold;
+  color: black;
+  background-image: url('img/type_electric.png');
+}
+
+.fighting {
+  background-color: darkred;
+  color: white;
+  background-image: url('img/type_fighting.png');
+}
+
+.flying {
+  background-color: skyblue;
+  color: black;
+  background-image: url('img/type_flying.png');
+}
+
+.bug {
+  background-color: yellowgreen;
+  color: white;
+  background-image: url('img/type_bug.png');
+}
+
+.ghost {
+  background-color: purple;
+  color: white;
+  background-image: url('img/type_ghost.png');
+}
+
+.rock {
+  background-color: sienna;
+  color: white;
+  background-image: url('img/type_rock.png');
+}
+
+.ground {
+  background-color: burlywood;
+  color: black;
+  background-image: url('img/type_ground.png');
+}
+
+.steel {
+  background-color: silver;
+  color: black;
+  background-image: url('img/type_steel.png');
+}
+
+.dark {
+  background-color: darkgray;
+  color: white;
+  background-image: url('img/type_dark.png');
+}
+
+.psychic {
+  background-color: palevioletred;
+  color: white;
+  background-image: url('img/type_psychic.png');
+}
+
+.fairy {
+  background-color: pink;
+  color: black;
+  background-image: url('img/type_fairy.png');
+}
+
+.dragon {
+  background-color: teal;
+  color: white;
+  background-image: url('img/type_dragon.png');
+}
+
+.poison {
+  background-color: darkviolet;
+  color: white;
+  background-image: url('img/type_poison.png');
+}
+
+.normal:hover {
+  transform: scale(1.05);
+}
+
+.fire:hover {
+  transform: scale(1.05);
+}
+
+.grass:hover {
+  transform: scale(1.05);
+}
+
+.water:hover {
+  transform: scale(1.05);
+}
+
+.ice:hover {
+  transform: scale(1.05);
+}
+
+.electric:hover {
+  transform: scale(1.05);
+}
+
+.fighting:hover {
+  transform: scale(1.05);
+}
+
+.flying:hover {
+  transform: scale(1.05);
+}
+
+.bug:hover {
+  transform: scale(1.05);
+}
+
+.ghost:hover {
+  transform: scale(1.05);
+}
+
+.rock:hover {
+  transform: scale(1.05);
+}
+
+.ground:hover {
+  transform: scale(1.05);
+}
+
+.steel:hover {
+  transform: scale(1.05);
+}
+
+.dark:hover {
+  transform: scale(1.05);
+}
+
+.psychic:hover {
+  transform: scale(1.05);
+}
+
+.fairy:hover {
+  transform: scale(1.05);
+}
+
+.dragon:hover {
+  transform: scale(1.05);
+}
+
+.poison:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-image-normal,
+.pokemon-modal-image-normal {
+  background-color: beige;
+  color: black;
+  background-image: url('img/type_normal.png');
+}
+.pokemon-image-fire,
+.pokemon-modal-image-fire {
+  background-color: orange;
+  color: white;
+  background-image: url('img/type_fire.png');
+}
+.pokemon-image-grass,
+.pokemon-modal-image-grass {
+  background-color: green;
+  color: white;
+  background-image: url("img/type_grass.png");
+}
+.pokemon-image-water,
+.pokemon-modal-image-water {
+  background-color: rgb(0, 37, 204);
+  color: white;
+  background-image: url('img/type_water.png');
+}
+.pokemon-image-ice,
+.pokemon-modal-image-ice {
+  background-color: lightblue;
+  color: black;
+  background-image: url('img/type_ice.png');
+}
+.pokemon-image-electric,
+.pokemon-modal-image-electric {
+  background-color: gold;
+  color: black;
+  background-image: url('img/type_electric.png');
+}
+.pokemon-image-fighting,
+.pokemon-modal-image-fighting {
+  background-color: darkred;
+  color: white;
+  background-image: url('img/type_fighting.png');
+}
+.pokemon-image-flying,
+.pokemon-modal-image-flying {
+  background-color: skyblue;
+  color: black;
+  background-image: url('img/type_flying.png');
+}
+.pokemon-image-bug,
+.pokemon-modal-image-bug {
+  background-color: yellowgreen;
+  color: white;
+  background-image: url('img/type_bug.png');
+}
+.pokemon-image-ghost,
+.pokemon-modal-image-ghost {
+  background-color: purple;
+  color: white;
+  background-image: url('img/type_ghost.png');
+}
+.pokemon-image-rock,
+.pokemon-modal-image-rock {
+  background-color: sienna;
+  color: white;
+  background-image: url('img/type_rock.png');
+}
+.pokemon-image-ground,
+.pokemon-modal-image-ground {
+  background-color: burlywood;
+  color: black;
+  background-image: url('img/type_ground.png');
+}
+.pokemon-image-steel,
+.pokemon-modal-image-steel {
+  background-color: silver;
+  color: black;
+  background-image: url('img/type_steel.png');
+}
+.pokemon-image-dark,
+.pokemon-modal-image-dark {
+  background-color: darkgray;
+  color: white;
+  background-image: url('img/type_dark.png');
+}
+.pokemon-image-psychic,
+.pokemon-modal-image-psychic {
+  background-color: palevioletred;
+  color: white;
+  background-image: url('img/type_psychic.png');
+}
+.pokemon-image-fairy,
+.pokemon-modal-image-fairy {
+  background-color: pink;
+  color: black;
+  background-image: url('img/type_fairy.png');
+}
+.pokemon-image-dragon,
+.pokemon-modal-image-dragon {
+  background-color: teal;
+  color: white;
+  background-image: url('img/type_dragon.png');
+}
+.pokemon-image-poison,
+.pokemon-modal-image-poison {
+  background-color: darkviolet;
+  color: white;
+  background-image: url('img/type_poison.png');
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="colors.css" />
+    <link rel="icon" href="img/favicon-pokedex.png" />
+  </head>
+  <body>
+    <header>
+      <div id="logo-pokedex">
+        <a class="main-logo-container" href="index.html">
+          <img id="logo-pokedex-image" src="img/pokedex-logo-ball.png" alt="Pokedex Logo" />
+          <img id="logo-pokedex-wording" src="img/pokedex_logo.png" alt="Pokedex Wording" />
+        </a>
+      </div>
+      <div id="searchbar">
+        <input id="poke-search-bar" type="text" placeholder="Find your Pokemon"/>
+      </div>
+    </header>
+    <section id="pokedex-content">
+      <div id="modal-gallery" class="modal">
+        <span class="close" onclick="closeModal()"><img id="close-icon" src="img/close-icon.png" alt=""></span>
+        <div id="modal-gallery-container">
+          <button id="previous-button" onclick="showPreviousPokemon()"><img src="img/previous-icon.png" alt="" class="navigation-icon"></button>
+          <div id="modal-content">
+            <div id="modal-content-card">
+              <div id="modal-card"></div>
+            </div>
+          </div>
+          <button id="next-button" onclick="showNextPokemon()"><img src="img/next-icon.png" alt="" class="navigation-icon"></button>
+          <div id="button-hidden-container" class="d-none">
+            <button id="previous-button-hidden" onclick="showPreviousPokemon()"><img src="img/previous-icon.png" alt="" class="navigation-icon"></button>
+            <button id="next-button-hidden" onclick="showNextPokemon()"><img src="img/next-icon.png" alt="" class="navigation-icon"></button>
+          </div>  
+        </div>
+      </div>
+      <div id="poke-card-main-container"></div>
+      <div id="button-container">
+        <button class="tooltip" onclick="loadPokemons()" id="load-more-button"><img src="img/load-more-icon.png" alt=""><span class="tooltiptext-load">LOAD MORE</span></button>
+        <button class="tooltip" onclick="clearLoadedPokemons()" id="back-button"><img src="img/back-to-top-icon.png" alt=""><span class="tooltiptext-back">CLEAR LIST (20)</span></button>
+      </div>
+    </section>
+    <footer id="footer-pokemon">
+      <section class="footer-logo">
+        <a href="index.html"><img src="img/pokedex-logo-ball.png" alt="" class="logoImage"></a>
+        <a href="index.html"><img src="img/pokedex_logo.png" alt="" class="logoWording"></a>
+      </section>
+    <section class="impressum-datenschutz">
+        <div id="impressum-file"><a href="imprint.html">IMPRINT</a></div>
+        <div id="seperator-footer"></div>
+        <div id="datenschutz-file"><a href="privacy.html">PRIVACY</a></div>
+    </section>
+    <section class="socialmedia">
+        <div>
+            <a href="https://www.facebook.com/pokemondeu/?brand_redir=230809307041021&locale=de_DE"><img src="img/facebook_white.png" id="fb-logo" alt="Facebook Logo"></a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/pokemon/?hl=de"><img src="img/instagram_white.png" alt="Instagram Logo"></a>
+        </div>
+        <div>
+            <a href="https://x.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="img/twitter_white.png" alt="X Logo"></a>
+        </div>
+    </section>
+    </footer>
+    <script src="script.js"></script>
+    <script src="render.js"></script>
+  </body>
+</html>

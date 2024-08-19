@@ -1,0 +1,79 @@
+@media (prefers-reduced-motion) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #footer-pokemon {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 64px 0px;
+  }
+
+  .logoImage {
+    margin-left: 0;
+  }
+
+  #next-button {
+    display: none;
+  }
+
+  #previous-button {
+    display: none;
+  }
+
+  #button-hidden-container {
+    display: flex;
+    gap: 64px;
+  }
+
+  #modal-gallery-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 32px 0px;
+  }
+
+  #logo-pokedex-image {
+    margin-left: 0;
+  }
+
+  #poke-search-bar {
+    margin-right: 0;
+  }
+
+  #categories-pokemon-container span {
+    max-width: 120px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .stats-item {
+    width: 50%;
+  }
+
+  .modal-image {
+    padding: 8px 0px;
+    width: 40%;
+  }
+
+  #modal-content {
+    margin: 16px 0px 32px 0px;
+    padding-top: 8px;
+  }
+
+  .type-space-images-modal {
+    background-position: bottom 0px left 30px !important;
+  }
+}
