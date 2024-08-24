@@ -7,6 +7,8 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 14px;
   background: #202124;
+  display: flex;
+  justify-content: center;
 }
 
 h1,
@@ -80,6 +82,14 @@ p {
   display: none;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100vw;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -92,6 +102,7 @@ header {
   position: sticky;
   top: 0;
   left: 0;
+  max-width: 1920px;
 }
 
 .main-logo-container {
@@ -142,6 +153,7 @@ header {
   flex-direction: column;
   align-items: center;
   background: #202124;
+  max-width: 1920px;
 }
 
 #poke-card-main-container {
@@ -534,18 +546,21 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 32px 0px 32px;
   box-shadow: 0px 0px 15px rgba(225, 225, 225, 0.4);
   clip-path: inset(-15px 0px 0px 0px);
+  max-width: 1920px;
+  width: 100%;
 }
 
 .footer-logo {
   display: flex;
   align-items: center;
+  margin-left: 32px;
 }
 
 .socialmedia {
   display: flex;
+  margin-right: 32px;
 }
 
 .socialmedia img {
@@ -603,8 +618,8 @@ footer {
 .main-content-impressum {
   display: flex;
   flex-direction: column;
-  color: white;
-  min-height: 100vh;
+  width: 100vw;
+  max-width: 1920px;
 }
 
 #headline-impressum {
@@ -613,7 +628,9 @@ footer {
 
 .impressum {
   margin: 0px 32px;
+  color: white;
 }
+
 .impressum a {
   text-decoration: none;
   color: #FFCB05;
@@ -634,9 +651,15 @@ footer {
   color: white;
 }
 /* IMPRESSUM - END */
+.datenschutz-content {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 1920px;
+}
 
 .datenschutz-pokemon {
-  padding: 32px;
+  margin: 32px 32px 0px 32px;
   color: white;
 }
 

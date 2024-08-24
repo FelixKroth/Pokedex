@@ -31,8 +31,6 @@ function renderPokemonsInModalHTML(pokemonData, firstType, abilityInfo) {
     
 }
 
-
-
 function renderCategoryMainPokemonContainer(pokemonData, abilityInfo) {
     let abilitiesHTML = '';
     if (abilityInfo.length > 0) {
